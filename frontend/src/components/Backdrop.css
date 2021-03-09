@@ -1,0 +1,9 @@
+.backdrop {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100; /* Z-index here got a value more than in the nav bar because i wanted to put it above the navbar */
+    position: fixed; /* Whateever i scroll it does not move, it will stat inside of viewport*/
+    top: 0; /* So i position it in top 0 left 0 */
+    left: 0;
+  }

@@ -1,0 +1,35 @@
+{/* where i wll have all the reducers */}
+const reducer = combineReducers({ 
+
+})
+
+{/* where i wll have all the middleware */}
+{/* in this case i will have only thunk */}
+{/* thunk helps to mak async requast in action */}
+const middleware = [thunk];
+
+{/* create the store */}
+const store = createStore(
+    reducer, 
+    composeWithDevTools(applyMiddleware(...middleware)), 
+    {/* whatever there is in the array of middleware i will add it to */}
+);
+
+export default store;
+
+++++
+
+{/* connect react with redux by wrraping a provider in the app */}
+
+
+
+What i can do with ...spread operation 
+
+Copying an array
+Concatenating or combining arrays
+Using Math functions
+Using an array as arguments
+Adding an item to a list
+Adding to state in React
+Combining objects
+Converting NodeList to an array
